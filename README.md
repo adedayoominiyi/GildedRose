@@ -1,3 +1,8 @@
+This is my attempt to refactor the Gilded Rose project (see instructions below). I created 2 subclasses of the original Item class namely: NormalItem and SpecialItem. Most items fit into the NormalItem category while there is actually only one SpecialItem (the backstage pass). Units tests have been added to a new class ItemTests to check the correctness of the code. 
+
+The instructions are not exactly clear about what is means to not alter the Item class or Items property as I did not change the list type of the Items property but I did change the content to be one of my 2 subclasses. I currently don't expect the behaviour to be any different.
+
+
 # Gilded Rose Refactoring Kata
 
 Hi and welcome to team Gilded Rose. As you know, we are a small inn with a 
