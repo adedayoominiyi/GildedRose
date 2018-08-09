@@ -13,8 +13,8 @@ namespace GildedRose.Console
             MaximumQualityAllowed = 50; // The Quality of an item is never more than 50
         }
 
-        public int NormalDecreaseBy { get; set; } // Use negative numbers to increment.
-        public int OverdueDecreaseBy { get; set; } // Use negative numbers to increment.
+        public int NormalDecreaseBy { get; set; }
+        public int OverdueDecreaseBy { get; set; }
         public int MinimumQualityAllowed { get; set; }
         public int MaximumQualityAllowed { get; set; }
 

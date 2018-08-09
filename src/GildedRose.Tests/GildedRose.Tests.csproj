@@ -62,6 +62,7 @@
     <Compile Include="TestAssemblyTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="TestClassDiagram.cd" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
